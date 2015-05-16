@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: dfaedfa645f09a445b650d51d8e464fb
+timeCreated: 1431798569
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: EksterTalk_01
+    21300002: EksterTalk_02
+    21300004: EksterSpritesheet2_2
+    21300006: EksterTalk_04
+    21300008: EksterTalk_05
+    21300010: EksterTalk_06
+    21300012: EksterTalk_07
+    21300014: EksterTalk_08
+    21300016: EksterTalk_09
+    21300018: EksterSpritesheet2_9
+    21300020: EksterSpritesheet2_10
+    21300022: EksterSpritesheet2_11
+    21300024: EksterSpritesheet2_12
+    21300026: EksterSpritesheet2_13
+    21300028: EksterSpritesheet2_14
+    21300030: EksterSpritesheet2_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 512
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: EksterTalk_01
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 3376
+        width: 622
+        height: 472
+      alignment: 9
+      pivot: {x: .800000012, y: .100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterTalk_02
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 3377
+        width: 605
+        height: 487
+      alignment: 9
+      pivot: {x: .800000012, y: .100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterSpritesheet2_2
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 3377
+        width: 621
+        height: 475
+      alignment: 9
+      pivot: {x: .800000012, y: .100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterTalk_04
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 3381
+        width: 634
+        height: 463
+      alignment: 9
+      pivot: {x: .800000012, y: .100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterTalk_05
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 3381
+        width: 630
+        height: 463
+      alignment: 9
+      pivot: {x: .800000012, y: .100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterTalk_06
+      rect:
+        serializedVersion: 2
+        x: 3356
+        y: 3381
+        width: 621
+        height: 471
+      alignment: 9
+      pivot: {x: .800000012, y: .100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterTalk_07
+      rect:
+        serializedVersion: 2
+        x: 3998
+        y: 3381
+        width: 630
+        height: 463
+      alignment: 9
+      pivot: {x: .800000012, y: .100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterTalk_08
+      rect:
+        serializedVersion: 2
+        x: 4653
+        y: 3377
+        width: 622
+        height: 475
+      alignment: 9
+      pivot: {x: .800000012, y: .100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterTalk_09
+      rect:
+        serializedVersion: 2
+        x: 5304
+        y: 3381
+        width: 621
+        height: 471
+      alignment: 9
+      pivot: {x: .800000012, y: .100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterSpritesheet2_9
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2793
+        width: 630
+        height: 458
+      alignment: 9
+      pivot: {x: .800000012, y: .100000001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterSpritesheet2_10
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 2784
+        width: 622
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterSpritesheet2_11
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 2788
+        width: 600
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterSpritesheet2_12
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 2784
+        width: 622
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterSpritesheet2_13
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2200
+        width: 619
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterSpritesheet2_14
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 2204
+        width: 600
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: EksterSpritesheet2_15
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 2200
+        width: 601
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
