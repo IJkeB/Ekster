@@ -15,17 +15,17 @@ MonoBehaviour:
   textScrollCLip: {fileID: 0}
   displayForever: 0
   screenTimeFactor: .100000001
-  allowSpeechSkipping: 0
+  allowSpeechSkipping: 1
   allowGameplaySpeechSkipping: 0
   searchAudioFiles: 1
   forceSubtitles: 1
   translateAudio: 1
-  scrollSubtitles: 1
+  scrollSubtitles: 0
   endScrollBeforeSkip: 0
   keepTextInBuffer: 0
   placeAudioInSubfolders: 0
-  separateLines: 0
-  separateLinePause: 1
+  separateLines: 1
+  separateLinePause: .300000012
   lines: []
   activeLine:
     isPlayer: 0

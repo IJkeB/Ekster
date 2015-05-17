@@ -14,7 +14,7 @@ MonoBehaviour:
   saveFileName: Ekster
   saveTimeDisplay: 0
   takeSaveScreenshots: 0
-  actionListOnStart: {fileID: 0}
+  actionListOnStart: {fileID: 11400000, guid: c24ed34576410ff4d8cac270c92be7b4, type: 2}
   blackOutWhenSkipping: 0
   playerSwitching: 1
   player: {fileID: 11419164, guid: 2f521f8af830d88489d769cc16d97083, type: 2}

@@ -2083,7 +2083,7 @@ MonoBehaviour:
   - {fileID: 11490684}
   biggestElementSize: {x: 562.829956, y: 131.410995}
   spacing: 2.0999999
-  sizeType: 1
+  sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
@@ -2095,8 +2095,8 @@ MonoBehaviour:
   panDirection: 0
   panMovement: 0
   panDistance: .5
-  fadeSpeed: .200000003
-  zoomAnchor: 4
+  fadeSpeed: .100000001
+  zoomAnchor: 5
   zoomElements: 0
   oneMenuPerSpeech: 0
 --- !u!114 &11465950
@@ -2180,7 +2180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linkedUiID: 14243318
   ID: 0
-  isEditing: 0
+  isEditing: 1
   title: HotspotLabel
   slotSize: {x: 34, y: 12}
   sizeType: 1
@@ -2192,7 +2192,7 @@ MonoBehaviour:
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
   highlightTexture: {fileID: 0}
-  isVisible: 1
+  isVisible: 0
   isClickable: 0
   orientation: 0
   gridWidth: 3
@@ -3047,7 +3047,7 @@ MonoBehaviour:
   isLocked: 0
   id: 11
   title: Hotspot
-  manualSize: {x: 34, y: 12}
+  manualSize: {x: 0, y: 0}
   positionType: 3
   manualPosition: {x: 50, y: 44.4000015}
   alignment: 0
@@ -3059,8 +3059,7 @@ MonoBehaviour:
   actionListOnTurnOff: {fileID: 0}
   backgroundTexture: {fileID: 0}
   sliderTexture: {fileID: 0}
-  visibleElements:
-  - {fileID: 11467344}
+  visibleElements: []
   transitionProgress: 0
   appearType: 5
   speechMenuType: 0
@@ -3069,16 +3068,16 @@ MonoBehaviour:
   firstSelectedElement: 
   elements:
   - {fileID: 11467344}
-  biggestElementSize: {x: 372.299988, y: 73.9199982}
+  biggestElementSize: {x: 0, y: 0}
   spacing: 0
   sizeType: 0
   orientation: 1
   rect:
     serializedVersion: 2
-    x: 361.350006
-    y: 236.544006
-    width: 372.299988
-    height: 73.9199982
+    x: 547.5
+    y: 273.503998
+    width: 0
+    height: 0
   transitionType: 0
   panDirection: 0
   panMovement: 0
@@ -3375,9 +3374,9 @@ MonoBehaviour:
   positionType: 0
   slotSpacing: 0
   lineID: 87
-  font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
-  fontScaleFactor: 2.3599999
-  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  font: {fileID: 12800000, guid: fa52d4ba273c31b4da2ede2aa52ba035, type: 3}
+  fontScaleFactor: 4
+  fontColor: {r: 0, g: 0, b: 0, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
   highlightTexture: {fileID: 0}
   isVisible: 1
@@ -3398,7 +3397,7 @@ MonoBehaviour:
   uiText: {fileID: 11400000, guid: 1c953f9bc70064ba690a9baff756d1ff, type: 2}
   label: Hi!
   anchor: 4
-  textEffects: 1
+  textEffects: 0
   labelType: 2
   variableID: 0
   variableNumber: 0
