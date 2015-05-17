@@ -98,7 +98,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hi!
+  m_Text: It looks like the crows are up to something on the field.
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -329,6 +329,48 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 313178669}
   m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
+--- !u!114 &108343832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  id: 0
+  isDisplayed: 1
+  title: Pause game
+  category: 5
+  description: Waits a set time before continuing.
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 1664335525}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 0
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 104
+  parameterID: -1
+  timeToPause: 2.4000001
 --- !u!1 &111365457
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,6 +397,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2077089867}
+  - {fileID: 734452989}
   m_Father: {fileID: 0}
   m_RootOrder: 3
 --- !u!114 &129325626
@@ -381,11 +424,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c71db86e1d5c94f12b17d37a41970b9f, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 3.94899988
+      value: .409000009
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c71db86e1d5c94f12b17d37a41970b9f, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1.83000004
+      value: -1.88100004
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c71db86e1d5c94f12b17d37a41970b9f, type: 2}
       propertyPath: m_LocalPosition.z
@@ -541,6 +584,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1904043797}
   m_RootOrder: 0
+--- !u!114 &360487275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59db1a4cca423454da15f861a614c595, type: 3}
+  m_Name: (Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 1
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  id: 0
+  isDisplayed: 1
+  title: Fade sprite
+  category: 11
+  description: Fades a sprite in or out.
+  endAction: 1
+  skipAction: 4
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 1
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 17
+    y: 967
+    width: 300
+    height: 158
+  constantID: 0
+  parameterID: -1
+  spriteFader: {fileID: 567885370}
+  fadeType: 1
+  fadeSpeed: 3
 --- !u!1001 &362887019
 Prefab:
   m_ObjectHideFlags: 0
@@ -615,51 +703,6 @@ Transform:
   - {fileID: 1650045802}
   m_Father: {fileID: 869171066}
   m_RootOrder: 0
---- !u!114 &416204149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59db1a4cca423454da15f861a614c595, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 1
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  id: 0
-  isDisplayed: 1
-  title: Fade sprite
-  category: 11
-  description: Fades a sprite in or out.
-  endAction: 2
-  skipAction: 4
-  skipActionActual: {fileID: 1804962024}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 542
-    width: 300
-    height: 158
-  constantID: 0
-  parameterID: -1
-  spriteFader: {fileID: 567885370}
-  fadeType: 0
-  fadeSpeed: 3
 --- !u!4 &435262284 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 91d6ab39027244ea689b8f0ec9b5b548, type: 2}
@@ -975,12 +1018,6 @@ MonoBehaviour:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 2454e47dbf358484bb5cfba10d699562, type: 2}
   m_PrefabInternal: {fileID: 186168175}
---- !u!114 &623997315 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11400000, guid: 2454e47dbf358484bb5cfba10d699562,
-    type: 2}
-  m_PrefabInternal: {fileID: 186168175}
-  m_Script: {fileID: 11500000, guid: bbbbb3c8d2a7340dab40d45d6033e69e, type: 3}
 --- !u!1001 &673294589
 Prefab:
   m_ObjectHideFlags: 0
@@ -1039,10 +1076,20 @@ Prefab:
     - target: {fileID: 11400016, guid: 5a39e31ce28cc48b096320990773071b, type: 2}
       propertyPath: cutsceneOnStart
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 734452990}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5a39e31ce28cc48b096320990773071b, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &734452989 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+  m_PrefabInternal: {fileID: 1374828828}
+--- !u!114 &734452990 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1374828828}
+  m_Script: {fileID: 11500000, guid: 3adbc08fa3d5641d4bf0544d11b7fb59, type: 3}
 --- !u!1 &744417992
 GameObject:
   m_ObjectHideFlags: 0
@@ -1151,6 +1198,48 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &865164173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
+  m_Name: (Clone)(Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 0
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  id: 0
+  isDisplayed: 1
+  title: Pause game
+  category: 5
+  description: Waits a set time before continuing.
+  endAction: 2
+  skipAction: 3
+  skipActionActual: {fileID: 360487275}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 1
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 17
+    y: 833
+    width: 300
+    height: 104
+  parameterID: -1
+  timeToPause: 3
 --- !u!1 &869171065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1267,58 +1356,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &897628055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0643024da91f402a9281e781736a4c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 1
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  id: 0
-  isDisplayed: 1
-  title: Move to point
-  category: 2
-  description: Moves a character to a given Marker object. By default, the character
-    will attempt to pathfind their way to the marker, but can optionally just move
-    in a straight line.
-  endAction: 2
-  skipAction: 3
-  skipActionActual: {fileID: 1888355755}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 202
-    width: 300
-    height: 194
-  charToMoveParameterID: -1
-  markerParameterID: -1
-  charToMoveID: 0
-  markerID: 0
-  marker: {fileID: 611987144}
-  isPlayer: 1
-  charToMove: {fileID: 0}
-  speed: 0
-  pathFind: 0
-  doFloat: 0
 --- !u!1001 &926570578
 Prefab:
   m_ObjectHideFlags: 0
@@ -2261,51 +2298,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08565f0c245ea4cb493de486dfcfe4e9, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1243938160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59db1a4cca423454da15f861a614c595, type: 3}
-  m_Name: (Clone)
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 1
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  id: 0
-  isDisplayed: 1
-  title: Fade sprite
-  category: 11
-  description: Fades a sprite in or out.
-  endAction: 1
-  skipAction: 4
-  skipActionActual: {fileID: 1804962024}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 864
-    width: 300
-    height: 158
-  constantID: 0
-  parameterID: -1
-  spriteFader: {fileID: 567885370}
-  fadeType: 1
-  fadeSpeed: 3
 --- !u!1 &1248621379
 GameObject:
   m_ObjectHideFlags: 0
@@ -2421,6 +2413,84 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!1001 &1374828828
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 111365458}
+    m_Modifications:
+    - target: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: actions.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: m_Name
+      value: OnStart 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: actions.Array.data[0]
+      value: 
+      objectReference: {fileID: 108343832}
+    - target: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: actions.Array.data[1]
+      value: 
+      objectReference: {fileID: 1664335525}
+    - target: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: actions.Array.data[2]
+      value: 
+      objectReference: {fileID: 865164173}
+    - target: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: actions.Array.data[3]
+      value: 
+      objectReference: {fileID: 360487275}
+    - target: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: actions.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: actions.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1386054855
 Prefab:
   m_ObjectHideFlags: 0
@@ -2643,59 +2713,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a9d4e17cb5a8745ccad47e11f075de33, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1493993949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0d4ab0f7ce3d4193a55deb9d20a7d66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  id: 0
-  isDisplayed: 1
-  title: Teleport
-  category: 11
-  description: Moves a GameObject to a Marker instantly. Can also copy the Marker's
-    rotation. The final position can optionally be made relative to the active camera,
-    or the player. For example, if the Marker's position is (0, 0, 1) and Positon
-    relative to is set to Relative To Active Camera, then the object will be teleported
-    in front of the camera.
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 158
-  obToMoveParameterID: -1
-  obToMoveID: 0
-  markerParameterID: -1
-  markerID: 0
-  positionRelativeTo: 0
-  isPlayer: 1
-  obToMove: {fileID: 0}
-  teleporter: {fileID: 623997315}
-  copyRotation: 0
 --- !u!114 &1495884939 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 11400000, guid: a9d4e17cb5a8745ccad47e11f075de33,
@@ -3061,27 +3078,27 @@ Prefab:
     - target: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
       propertyPath: actions.Array.data[0]
       value: 
-      objectReference: {fileID: 1493993949}
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
       propertyPath: actions.Array.data[1]
       value: 
-      objectReference: {fileID: 897628055}
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
       propertyPath: actions.Array.data[2]
       value: 
-      objectReference: {fileID: 416204149}
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
       propertyPath: actions.Array.data[3]
       value: 
-      objectReference: {fileID: 1888355755}
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
       propertyPath: actions.Array.data[4]
       value: 
-      objectReference: {fileID: 1804962024}
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
       propertyPath: actions.Array.data[5]
       value: 
-      objectReference: {fileID: 1243938160}
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
       propertyPath: m_IsActive
       value: 1
@@ -3089,6 +3106,51 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 863cd5d53c44945c2b30dca66dfce16e, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1664335525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59db1a4cca423454da15f861a614c595, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  numSockets: 1
+  willWait: 1
+  defaultPauseTime: .100000001
+  isRunning: 0
+  lastResult:
+    resultAction: 0
+    skipAction: -10
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  id: 0
+  isDisplayed: 1
+  title: Fade sprite
+  category: 11
+  description: Fades a sprite in or out.
+  endAction: 2
+  skipAction: 2
+  skipActionActual: {fileID: 865164173}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isMarked: 1
+  isEnabled: 1
+  isAssetFile: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 17
+    y: 117
+    width: 300
+    height: 158
+  constantID: 0
+  parameterID: -1
+  spriteFader: {fileID: 567885370}
+  fadeType: 0
+  fadeSpeed: 3
 --- !u!1 &1691803944
 GameObject:
   m_ObjectHideFlags: 0
@@ -3278,48 +3340,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 91d6ab39027244ea689b8f0ec9b5b548, type: 2}
   m_IsPrefabParent: 0
---- !u!114 &1804962024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: (Clone)
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  id: 0
-  isDisplayed: 1
-  title: Pause game
-  category: 5
-  description: Waits a set time before continuing.
-  endAction: 2
-  skipAction: 5
-  skipActionActual: {fileID: 1243938160}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 730
-    width: 300
-    height: 104
-  parameterID: -1
-  timeToPause: 3
 --- !u!114 &1819855491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3434,48 +3454,6 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 91d6ab39027244ea689b8f0ec9b5b548, type: 2}
   m_PrefabInternal: {fileID: 1386054855}
---- !u!114 &1888355755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numSockets: 1
-  willWait: 0
-  defaultPauseTime: .100000001
-  isRunning: 0
-  lastResult:
-    resultAction: 0
-    skipAction: -10
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  id: 0
-  isDisplayed: 1
-  title: Pause game
-  category: 5
-  description: Waits a set time before continuing.
-  endAction: 2
-  skipAction: 2
-  skipActionActual: {fileID: 416204149}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  isMarked: 0
-  isEnabled: 1
-  isAssetFile: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 19
-    y: 412
-    width: 300
-    height: 104
-  parameterID: -1
-  timeToPause: 3
 --- !u!1 &1904043796
 GameObject:
   m_ObjectHideFlags: 0

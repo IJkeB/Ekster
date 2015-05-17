@@ -270,6 +270,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f521f8af830d88489d769cc16d97083, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &255064827 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11419164, guid: 2f521f8af830d88489d769cc16d97083,
+    type: 2}
+  m_PrefabInternal: {fileID: 255064826}
+  m_Script: {fileID: 11500000, guid: 5e75a04a147624aa9b6f89d5d4759155, type: 3}
 --- !u!1 &306473421
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,8 +893,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 1227351882}
   - 212: {fileID: 1227351881}
+  - 95: {fileID: 1227351883}
   m_Layer: 0
-  m_Name: kraai_temp
+  m_Name: Crow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -932,6 +939,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
+--- !u!95 &1227351883
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1227351880}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 247bd87536ca88249a5af6ea9f938618, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &1289108284
 Prefab:
   m_ObjectHideFlags: 0
@@ -1174,6 +1198,21 @@ Transform:
   - {fileID: 545936943}
   m_Father: {fileID: 0}
   m_RootOrder: 8
+--- !u!114 &1686608420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 255064827}
+  turningStyle: 0
+  rootMotion: 0
+  isSpriteBased: 1
 --- !u!1 &1982350550
 GameObject:
   m_ObjectHideFlags: 0
